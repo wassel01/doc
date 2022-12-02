@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&family=Roboto:wght@500&family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&family=Roboto:wght@500&family=Work+Sans:wght@200;300;500&display=swap');
+*{margin: 0 auto}
+#logo{
+    width: 286px;
+    height: auto;
+}
+.drop-menu{ 
+    display: none;
+    position: absolute ;
+}
+.menu{
+    display: flex;
+    width: 252px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family: roboto;
+    font-size: 15px;
+    line-height: 30px;
+    color: #ababab;
+}
+nav{
+    height: 100%;
+    width: 252px;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    box-shadow: 0px 0px 0px 3px rgb(111, 111, 111, 0.145);
+}
+li {
+    list-style: none;
+}
+.menu-item:hover{
+    color: #00b39b;
+}
+.menu-item:hover .drop-menu{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.281);
+    height: 220px;
+    width: 220px;
+}
+.drop-menu-item{
+    color: #ababab;
+    width: 220px;
+    height: 100%;
+    margin-right:200px ;
+    margin-left: -40px;
+    padding: 0px 20px;
+
+}
+.drop-menu-item:hover{
+    background-color: #ababab42;
+    color: #00b39b;
+}
+#paragraph-container{
+    display: flex;
+    justify-content: space-between;
+}
+#paragraph-container p {
+    width: 477px;
+    font-family: roboto;
+    color: #747474;
+    margin: 15px;
+    font-size: 16px;
+    line-height: 28px;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+
+}
+.section1 img{
+margin-top: 25px;
+margin-bottom: 25px;
+height: 40px;
+width: 40px;
+}
+.section1 h1{
+font-family: work sans;
+font-size: 34px;
+line-height: 44px;
+margin-top: 25px;
+margin-bottom:25px ;    
+color: #00b39b;
+}
+#section2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+#section2 div{
+    width: 311px;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border-radius: 10px;
+}
+#greencard{
+    background-color: #00ccb1;
+}
+#bluecard{
+    background-color: #3d83df;
+}
+#blackcard{
+    background-color: #1b2734;
+}
+#section3 h1{
+height: 101px;
+width: 281px;
+font-family: work sans;
+font-size: 26px;
+line-height: 33px;
+color: #00b39b;
+}
+.sponlogo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 653px;
+    height: 108px;
+}
+#section3 {
+    display: flex;
+    width: 1015px;
+    margin-top: 15px;
+}
+svg{
+    width: 135px;
+    height: 35px;
+    fill: #747474;
+}
+.brands__logos{
+    filter: grayscale(100%);
+}
+.brands__logos:hover{
+filter: grayscale(0);
+}
+svg:hover{
+    fill: #00b39b;
+}
+#text-container {
+    margin-top: 50px;
+    flex-direction: column;
+    display: flex;
+}
+#text-container h1  {
+    width: 478px;
+    height: 89px;
+    font-family: work sans;
+    color: #00b39b;
+    font-size: 34px;
+    margin: 15px;
+}
+#text-container p {
+    height: 48px;
+    width: 415px;
+    font-family:roboto ;
+    color: #747474;
+    font-size: 14px;
+    margin: 15px;
+}
+#section4{
+    width: 100%;
+    background-image: url(https://cdn.discordapp.com/attachments/964128210705068102/984402848517333022/sans_titre-2.png);
+    height: 600px;
+    display: flex;
+
+}
+.whitebox{
+    background-color: white;
+    height: 250px;
+    width: 229px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.whitebox img{
+    padding: 20px;
+    width: 35px;
+    height: 40px;
+}
+.whitebox h3 {
+    padding: 10px;
+    font-family: word sans;
+    font-size: 24px;
+    color: #00b39b;
+    text-align: center;
+}
+.whitebox p {
+    padding: 10px;
+    text-align: center;
+    font-family: roboto;
+    font-size: 14px;
+}
+#boxes-container{
+    display: flex;
+    margin-top: 25px;
+}
+#column1{
+    margin-top: 20px;
+}
